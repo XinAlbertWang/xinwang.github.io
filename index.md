@@ -43,5 +43,5 @@ Abstract: This paper studies ...
 📍 London, Ontario, Canada  
 
 
-- [LinkedIn](ca://s?q=Open_my_LinkedIn_profile)
+
 
