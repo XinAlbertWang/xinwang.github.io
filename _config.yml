@@ -1,1 +1,17 @@
+title: "Xin Wang"
+email: "your-email@uwo.ca"
+description: "PhD Candidate in Economics, Western University"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
 
+author:
+  name: "Xin Wang"
+  bio: "PhD Candidate, Economics, Western University"
+  location: "London, Ontario, Canada"
+  email: "your-email@uwo.ca"
+
+plugins:
+  - jekyll-include-cache
+
+# 关闭导航栏（单页网站不需要）
+header_pages: []
