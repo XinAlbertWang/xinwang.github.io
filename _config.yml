@@ -1,5 +1,5 @@
 title: "Xin Wang"
-email: "your-email@uwo.ca"
+email: "xwan2552@uwo.ca"
 description: "PhD Candidate in Economics, Western University"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
@@ -8,7 +8,7 @@ author:
   name: "Xin Wang"
   bio: "PhD Candidate, Economics, Western University"
   location: "London, Ontario, Canada"
-  email: "your-email@uwo.ca"
+  email: "xwan2552@uwo.ca"
 
 plugins:
   - jekyll-include-cache
