@@ -1,8 +1,3 @@
-// ─────────────────────────────────────────────────────────────────────────────
-// config.js — Edit this file to personalize your academic homepage.
-// No HTML/CSS knowledge required.
-// ─────────────────────────────────────────────────────────────────────────────
-
 const USER_CONFIG = {
   name:       "Your Name",
   initials:   "YN",
@@ -10,7 +5,7 @@ const USER_CONFIG = {
   university: "Your University",
   email:      "your.email@university.edu",
   bio:        "Exploring the frontiers of your research area, machine learning, and artificial intelligence. Building intelligent systems that advance scientific discovery.",
-  photo:      "",   // optional: path to your photo, e.g. "assets/photo.jpg"
+  photo:      "",
 
   stats: [
     { value: "10+",  label: "Publications" },
@@ -21,10 +16,69 @@ const USER_CONFIG = {
   links: {
     scholar: "https://scholar.google.com/",
     github:  "https://github.com/",
-    twitter: "",          // leave empty to hide
+    twitter: "",
     cv:      "assets/cv.pdf",
   },
 
+  // ───────────────────────────────────────────────
+  // ⭐ Job Market Paper
+  // ───────────────────────────────────────────────
+  jmp: [
+    {
+      year:     2026,
+      title:    "Your Job Market Paper Title",
+      authors:  "Your Name",
+      venue:    "Job Market Paper",
+      links:    { pdf: "assets/jmp.pdf" },
+      abstract: "A short abstract summarizing your JMP contribution."
+    }
+  ],
+
+  // ───────────────────────────────────────────────
+  // ⭐ Working Papers
+  // ───────────────────────────────────────────────
+  working_papers: [
+    {
+      year:     2025,
+      title:    "Working Paper Title 1",
+      authors:  "Your Name",
+      venue:    "Working Paper",
+      links:    { pdf: "assets/wp1.pdf" },
+      abstract: ""
+    },
+    {
+      year:     2024,
+      title:    "Working Paper Title 2",
+      authors:  "Your Name, Co-author",
+      venue:    "Submitted",
+      links:    {},
+      abstract: ""
+    }
+  ],
+
+  // ───────────────────────────────────────────────
+  // ⭐ Work in Progress
+  // ───────────────────────────────────────────────
+  wip: [
+    {
+      title:    "Project Title 1",
+      authors:  "Your Name",
+      venue:    "Work in Progress",
+      links:    {},
+      abstract: "Optional: short description of the idea."
+    },
+    {
+      title:    "Project Title 2",
+      authors:  "Your Name",
+      venue:    "Early Stage",
+      links:    {},
+      abstract: ""
+    }
+  ],
+
+  // ───────────────────────────────────────────────
+  // Existing modules (unchanged)
+  // ───────────────────────────────────────────────
   publications: [
     {
       year:     2025,
@@ -66,5 +120,4 @@ const USER_CONFIG = {
   experience: [
     { period: "Summer 2024", role: "Research Intern", institution: "Research Lab / Company" },
   ],
-};
 };
