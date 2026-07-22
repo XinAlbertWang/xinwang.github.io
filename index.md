@@ -131,6 +131,36 @@
             </div>
         </div>
     </section>
+<section id="working-papers" class="section section-alt">
+    <div class="section-container">
+        <h2 class="section-title">
+            <span class="title-icon">//</span> Working Papers
+        </h2>
+        <div class="publications-list" id="cfg-working-papers"></div>
+    </div>
+</section>
+
+<section id="wip" class="section">
+    <div class="section-container">
+        <h2 class="section-title">
+            <span class="title-icon">//</span> Work in Progress
+        </h2>
+        <div class="publications-list" id="cfg-wip"></div>
+    </div>
+</section>
+
+
+
+
+    
+<section id="jmp" class="section">
+    <div class="section-container">
+        <h2 class="section-title">
+            <span class="title-icon">//</span> Job Market Paper
+        </h2>
+        <div class="publications-list" id="cfg-jmp"></div>
+    </div>
+</section>
 
     <!-- Projects Section -->
     <section id="projects" class="section section-alt">
