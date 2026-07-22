@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Academic homepage of [Your Name]">
-    <title>Your Name | Academic Homepage</title>
+    <title data-config="name">Academic Homepage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,8 +18,9 @@
                 <span class="logo-text" data-config="initials">YN</span>
                 <span class="logo-bracket">]</span>
             </a>
+
             <div class="nav-links">
-                <a href="#about">About Me</a>
+                <a href="#about">About</a>
                 <a href="#jmp">JMP</a>
                 <a href="#working-papers">Working Papers</a>
                 <a href="#wip">Work in Progress</a>
@@ -30,9 +30,10 @@
                 <a href="#experience">Experience</a>
                 <a href="#contact">Contact</a>
             </div>
+
             <div class="nav-controls">
-                <button type="button" class="nav-btn theme-toggle" id="themeToggle">
-                    <span class="theme-label">Light</span>
+                <button id="themeToggle" class="nav-btn">
+                    <span class="theme-label"></span>
                 </button>
             </div>
         </div>
@@ -41,19 +42,21 @@
     <!-- Hero -->
     <section id="about" class="hero">
         <div class="hero-content">
-            <div class="hero-text">
-                <p class="hero-greeting">Hello, I'm</p>
+            <div>
                 <h1 class="hero-name" data-config="name">Your Name</h1>
-                <p class="hero-title" data-config="role_university">PhD Candidate at Your University</p>
+                <p class="hero-title" data-config="role_university"></p>
                 <p class="hero-description" data-config="bio"></p>
             </div>
+
             <div class="hero-image">
-                <div class="image-placeholder"></div>
+                <div class="image-frame">
+                    <div class="image-placeholder"></div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- JMP -->
+    <!-- Job Market Paper -->
     <section id="jmp" class="section">
         <div class="section-container">
             <h2 class="section-title"><span class="title-icon">//</span> Job Market Paper</h2>
@@ -118,7 +121,9 @@
     </section>
 
     <footer class="footer">
-        <p>&copy; 2025 Your Name</p>
+        <div class="footer-content">
+            <p>&copy; 2025 <span data-config="name"></span></p>
+        </div>
     </footer>
 
     <script src="config.js"></script>
