@@ -1,10 +1,10 @@
 const USER_CONFIG = {
-  name:       "Your Name",
-  initials:   "YN",
+  name:       "Xin Wang",
+  initials:   "XW",
   role:       "PhD Candidate",
-  university: "Your University",
-  email:      "your.email@university.edu",
-  bio:        "Exploring the frontiers of your research area, machine learning, and artificial intelligence. Building intelligent systems that advance scientific discovery.",
+  university: "Western University",
+  email:      "xwan2552@uwo.ca",
+  bio:        "I'm Xin Wang, a sixth-year economics PhD student at Western University. I completed my undergraduate at Sun Yat-sen University studying Economics and Mathematics. My CV can be found here. I am interested in game theory, mechanism design, and behavioral economics.",
   photo:      "",
 
   stats: [
